@@ -16,13 +16,13 @@ class Navbar extends React.Component {
     let closedDrawer = "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z";
     let openDrawer = "M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z";
     return (
-      <div className="flex bg-white border-gray-200 h-20 fixed items-center w-full px-6 p-4 border-gray-300 border z-50">
+      <div className="flex bg-white border-gray-200 h-20 fixed items-center w-full px-6 p-4 border-gray-300 border z-50 ">
         <div className="w-full relative mx-auto">
           <div className="flex items-center">
             <div className="flex flex-grow items-center md:w-1/4 xl:w-1/5">
               <svg 
                 onClick={this.toggleSidebar}
-                className="fill-current w-4 h-4 mr-4 block lg:hidden" 
+                className="fill-current w-4 h-4 mr-4 block lg:hidden text-gray-700" 
                 xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 20 20"
               >
@@ -42,7 +42,7 @@ class Navbar extends React.Component {
                 </div>
               </div>
               <div className="relative flex justify-end items-center w-full lg:1/4">
-                <div className="text-gray-800 mr-4">Stephen Stern</div>
+                <div className="text-gray-700 mr-4">Stephen Stern</div>
                 <img className="h-10 rounded-full" src="https://pbs.twimg.com/media/ERQuXlhXsAAUwnG?format=jpg&name=large"></img>
               </div>
             </div>
