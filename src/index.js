@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'circular-std';
 import './index.scss';
+import './styles/tailwind.css'
 import App from './Components/Apps/App';
 import * as serviceWorker from './serviceWorker';
 
