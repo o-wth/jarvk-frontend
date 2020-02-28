@@ -16,7 +16,7 @@ class Navbar extends React.Component {
     let closedDrawer = "M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z";
     let openDrawer = "M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z";
     return (
-      <div className="flex bg-color-main h-20 fixed items-center w-full px-8 p-4 z-50 ">
+      <div className="flex h-20 fixed items-center w-full px-8 p-4 z-50 ">
         <div className="w-full relative mx-auto">
           <div className="flex items-center">
             <div className="flex flex-grow items-center md:w-1/4 xl:w-1/5">
@@ -28,13 +28,13 @@ class Navbar extends React.Component {
               >
                 <path d={this.props.open ? openDrawer : closedDrawer}></path>
               </svg>
-              <div className="text-xl font-semibold text-purple-600">Jarvk</div>
+              <div className="text-xl font-semibold accent-color-text">Jarvk</div>
             </div>
             <div className="flex flex-grow md:w-3/4 lg:w-3/4 xl:w-4/5">
               <div className="hidden md:flex relative w-full lg:3/4">
                 <input
                   id="searchall"
-                  className="shadow-2xl w-full h-12 text-base transitions-colors duration-100 ease-in-out outline-none text-gray-600 placeholder-gray-600 rounded-lg py-2 pr-4 pl-10 block appearance-none leading-normal ds-input"
+                  className="shadow-xl w-full h-12 text-base transitions-colors duration-100 ease-in-out outline-none text-gray-600 placeholder-gray-600 rounded-lg py-2 pr-4 pl-10 block appearance-none leading-normal ds-input"
                   placeholder="Search..."
                 ></input>
                 <div className="pointer-events-none absolute inset-y-0 left-0 pl-4 flex items-center">
@@ -43,7 +43,7 @@ class Navbar extends React.Component {
               </div>
               <div className="relative flex justify-end items-center w-full lg:1/4">
                 <div className="text-gray-700 mr-4">Stephen Stern</div>
-                <img className="h-10 rounded-full" src="https://pbs.twimg.com/media/ERQuXlhXsAAUwnG?format=jpg&name=large"></img>
+                <img className="h-10 rounded-full" alt="My Account" src="https://pbs.twimg.com/media/ERQuXlhXsAAUwnG?format=jpg&name=large"></img>
               </div>
             </div>
           </div>

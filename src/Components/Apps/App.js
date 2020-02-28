@@ -26,7 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App bg-color-main">
+        <div className="App bg-main">
           <Navbar onNavOpenChange={this.onNavOpenChange} open={this.state.isOpen}/>
           <div className="w-full mx-auto px-6 h-full min-h-screen">
             <Sidebar open={this.state.isOpen}/>
