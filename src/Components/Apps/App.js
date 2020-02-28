@@ -11,24 +11,8 @@ import {
 class App extends React.Component {
   constructor(props) {
     super(props);
-    // navOpen -1 means not toggled
-    this.state = { width: 0, height: 0, isOpen: false };
-
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+    this.state = { isOpen: false };
     this.onNavOpenChange = this.onNavOpenChange.bind(this);
-  }
-
-  componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
-
-  componentWillUnmount() {
-    window.removeEventListener('resize', this.updateWindowDimensions);
-  }
-
-  updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
 
   onNavOpenChange() {
@@ -42,12 +26,10 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="App bg-color-main">
           <Navbar onNavOpenChange={this.onNavOpenChange} open={this.state.isOpen}/>
           <div className="w-full mx-auto px-6 h-full min-h-screen">
-            <div 
-              className=""
-            ><Sidebar open={this.state.isOpen}/></div>
+            <Sidebar open={this.state.isOpen}/>
           </div>
         </div>
       </Router>

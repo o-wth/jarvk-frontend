@@ -9,7 +9,7 @@ class SidebarItem extends React.Component {
   }
   render() {
     return (
-      <div className="flex-col">
+      <div className="flex-col p-6 bg-white rounded-lg shadow-2xl">
         <ul>
           <li className="mb-2">
             <div className="font-semibold text-purple-600 text-lg" >{this.props.title}</div>
