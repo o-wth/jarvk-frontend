@@ -23,6 +23,14 @@ $accent-green: #82e9a5;
   background-color: $accent-color;
 }
 
+.bg-accent-dark {
+  background-color: $accent-color-dark;
+}
+
 .text-accent-dark {
   color: $accent-color-dark;
+}
+
+.bg-accent-green {
+  background-color: $accent-green;
 }

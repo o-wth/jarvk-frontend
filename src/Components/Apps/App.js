@@ -3,6 +3,8 @@ import './App.scss';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
 
+import Dashboard from 'Views/Dashboard/Dashboard';
+
 import {
   BrowserRouter as Router,
   Route
@@ -28,8 +30,13 @@ class App extends React.Component {
       <Router>
         <div className="App bg-main">
           <Navbar onNavOpenChange={this.onNavOpenChange} open={this.state.isOpen}/>
-          <div className="w-full mx-auto px-6 h-full min-h-screen">
+          <div className="w-full mx-auto min-h-screen">
             <Sidebar open={this.state.isOpen}/>
+            <div className="absolute flex flex-grow w-full lg:w-3/4 xl:w-4/5 right-0 pt-20">
+              <div className="py-2 lg:py-8 px-4 w-full">
+               <Dashboard />
+              </div>
+            </div>
           </div>
         </div>
       </Router>

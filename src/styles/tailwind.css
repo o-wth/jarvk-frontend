@@ -6814,11 +6814,11 @@ video {
 }
 
 .shadow-lg {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .shadow-xl {
-  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
 }
 
 .shadow-2xl {
@@ -6854,11 +6854,11 @@ video {
 }
 
 .hover\:shadow-lg:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .hover\:shadow-xl:hover {
-  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
 }
 
 .hover\:shadow-2xl:hover {
@@ -6894,11 +6894,11 @@ video {
 }
 
 .focus\:shadow-lg:focus {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 .focus\:shadow-xl:focus {
-  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+  box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
 }
 
 .focus\:shadow-2xl:focus {
@@ -17121,11 +17121,11 @@ video {
   }
 
   .sm\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .sm\:shadow-xl {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .sm\:shadow-2xl {
@@ -17161,11 +17161,11 @@ video {
   }
 
   .sm\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .sm\:hover\:shadow-xl:hover {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .sm\:hover\:shadow-2xl:hover {
@@ -17201,11 +17201,11 @@ video {
   }
 
   .sm\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .sm\:focus\:shadow-xl:focus {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .sm\:focus\:shadow-2xl:focus {
@@ -27429,11 +27429,11 @@ video {
   }
 
   .md\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .md\:shadow-xl {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .md\:shadow-2xl {
@@ -27469,11 +27469,11 @@ video {
   }
 
   .md\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .md\:hover\:shadow-xl:hover {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .md\:hover\:shadow-2xl:hover {
@@ -27509,11 +27509,11 @@ video {
   }
 
   .md\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .md\:focus\:shadow-xl:focus {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .md\:focus\:shadow-2xl:focus {
@@ -37737,11 +37737,11 @@ video {
   }
 
   .lg\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .lg\:shadow-xl {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .lg\:shadow-2xl {
@@ -37777,11 +37777,11 @@ video {
   }
 
   .lg\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .lg\:hover\:shadow-xl:hover {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .lg\:hover\:shadow-2xl:hover {
@@ -37817,11 +37817,11 @@ video {
   }
 
   .lg\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .lg\:focus\:shadow-xl:focus {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .lg\:focus\:shadow-2xl:focus {
@@ -48045,11 +48045,11 @@ video {
   }
 
   .xl\:shadow-lg {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .xl\:shadow-xl {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .xl\:shadow-2xl {
@@ -48085,11 +48085,11 @@ video {
   }
 
   .xl\:hover\:shadow-lg:hover {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .xl\:hover\:shadow-xl:hover {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .xl\:hover\:shadow-2xl:hover {
@@ -48125,11 +48125,11 @@ video {
   }
 
   .xl\:focus\:shadow-lg:focus {
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   }
 
   .xl\:focus\:shadow-xl:focus {
-    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.02), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
+    box-shadow: 0 30px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.01);
   }
 
   .xl\:focus\:shadow-2xl:focus {

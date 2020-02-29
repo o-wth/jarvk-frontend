@@ -6,7 +6,7 @@ import './SidebarItem.scss';
 class SidebarItem extends React.Component {
   render() {
     return (
-      <div className="flex-col p-6 rounded-lg shadow-xl bg-accent">
+      <div className="flex-col p-6 rounded-lg shadow-lg bg-accent">
         <ul>
           <li className="mb-2">
             <div className="font-semibold text-accent-dark text-lg" >{this.props.title}</div>
