@@ -2,6 +2,10 @@ $main-color: #f7f1f0;
 $accent-color: #453eeb;
 $accent-color-dark: #ffcebd;
 $accent-green: #82e9a5;
+$accent-yellow: #fed469;
+$accent-purple: #6153cf;
+$accent-darkblue: #304254;
+$accent-red: #cf5353;
 
 .bg-main {
   background-color: $main-color;
@@ -29,8 +33,4 @@ $accent-green: #82e9a5;
 
 .text-accent-dark {
   color: $accent-color-dark;
-}
-
-.bg-accent-green {
-  background-color: $accent-green;
 }

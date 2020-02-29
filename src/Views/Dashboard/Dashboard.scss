@@ -1,3 +1,22 @@
-.yel {
-  background-color: #fed469;
+@import 'styles/colors.scss';
+
+.yellow {
+  background-color: $accent-yellow;
 }
+
+.purple {
+  background-color: $accent-purple;
+}
+
+.green {
+  background-color: $accent-green;
+}
+
+.red {
+  background-color: $accent-red;
+}
+
+.darkblue {
+  background-color: $accent-darkblue;
+}
+
