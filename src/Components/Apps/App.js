@@ -1,8 +1,9 @@
 import React from 'react';
+import classNames from 'classnames';
+
 import './App.scss';
 import Navbar from '../Navbar/Navbar';
 import Sidebar from '../Sidebar/Sidebar';
-
 import Dashboard from 'Views/Dashboard/Dashboard';
 
 import {
@@ -26,9 +27,11 @@ class App extends React.Component {
   }
 
   render() {
+    if(this.state.isOpen) document.body.classList.add('overflow-hidden');
+    else document.body.classList.remove('overflow-hidden');
     return (
       <Router>
-        <div className="App bg-main">
+        <div className="App">
           <Navbar onNavOpenChange={this.onNavOpenChange} open={this.state.isOpen}/>
           <div className="w-full mx-auto min-h-screen">
             <Sidebar open={this.state.isOpen}/>

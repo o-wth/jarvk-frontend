@@ -35,9 +35,9 @@ class Sidebar extends React.Component {
     return (
       <div
         style={(this.props.open) ? { display: "flex" } : {}}
-        className="bg-main flex-grow w-full lg:w-1/4 xl:w-1/5 absolute pt-20 hidden lg:flex z-40"
+        className="bg-main flex-grow w-full h-full lg:w-1/4 xl:w-1/5 absolute pt-20 hidden lg:flex z-40 overflow-y-auto"
       >
-        <div className="w-full h-full px-8 py-2 lg:py-8">
+        <div className="w-full px-8 py-2 lg:py-8">
           <div className="flex flex-grow md:w-3/4 lg:w-3/4 xl:w-4/5">
             <div className="flex md:hidden relative w-full mb-6">
               <input
