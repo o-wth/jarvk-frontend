@@ -6,17 +6,19 @@ import {
   PersonOutlineRounded, 
   PieChartRounded, 
   ThumbUpRounded, 
+  SmsRounded,
   CalendarTodayRounded,
   MessageRounded,
-  BarChartRounded
+  BarChartRounded,
 } from '@material-ui/icons';
 
 class Sidebar extends React.Component {
   myHealthTabsName = "My Health";
   myHealthTabs = [
-    { title: "Diagnosis", href: "/diganosis", icon: PersonOutlineRounded },
+    { title: "Diagnosis", href: "/diagnosis", icon: PersonOutlineRounded },
     { title: "Data", href: "/data", icon: PieChartRounded },
     { title: "Advice", href: "/advice", icon: ThumbUpRounded },
+    { title: "Chat", href: "/chat", icon: SmsRounded }
   ]
 
   myHistoryTabName = "My History";
