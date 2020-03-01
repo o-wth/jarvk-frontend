@@ -14,7 +14,13 @@ class SidebarItem extends React.Component {
           {this.props.links.map((value, _) => {
             return (
               <li className="my-2" key={value.title}>
-                <NavLink exact className="text-gray-300 w-full flex items-center" activeClassName="text-white font-semibold" to={value.href}>
+                <NavLink 
+                  exact 
+                  className="text-gray-300 w-full flex items-center" 
+                  activeClassName="text-white font-semibold" 
+                  to={value.href}
+                  onClick={this.props.onLinkClick}
+                >
                   <value.icon />
                   <div className="ml-2">{value.title}</div>
                 </NavLink>

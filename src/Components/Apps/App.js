@@ -17,6 +17,7 @@ class App extends React.Component {
     super(props);
     this.state = { isOpen: false };
     this.onNavOpenChange = this.onNavOpenChange.bind(this);
+    this.closeNav = this.closeNav.bind(this);
   }
 
   onNavOpenChange() {
@@ -27,6 +28,14 @@ class App extends React.Component {
     }))
   }
 
+  closeNav() {
+    this.setState(state => ({
+      isOpen: false,
+      width: state.width,
+      height: state.height,
+    }));
+  }
+
   render() {
     if(this.state.isOpen) document.body.classList.add('overflow-hidden');
     else document.body.classList.remove('overflow-hidden');
@@ -35,8 +44,8 @@ class App extends React.Component {
         <div className="App">
           <Navbar onNavOpenChange={this.onNavOpenChange} open={this.state.isOpen}/>
           <div className="w-full mx-auto min-h-screen">
-            <Sidebar open={this.state.isOpen}/>
-            <div className="absolute flex flex-grow w-full h-full lg:w-3/4 xl:w-4/5 right-0 pt-20">
+            <Sidebar open={this.state.isOpen} onLinkClick={this.closeNav}/>
+            <div className="relative float-right flex flex-grow w-full h-full lg:w-3/4 xl:w-4/5 right-0 pt-20">
               <div className="py-2 lg:py-8 px-4 w-full h-full">
                 <Switch>
                   <Route path="/diagnosis">

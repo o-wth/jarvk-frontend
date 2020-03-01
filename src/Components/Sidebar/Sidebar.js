@@ -30,14 +30,13 @@ class Sidebar extends React.Component {
 
   constructor(props) {
     super(props);
-    console.log(props);
   }
 
   render() {
     return (
       <div
         style={(this.props.open) ? { display: "flex" } : {}}
-        className="bg-main flex-grow w-full h-full lg:w-1/4 xl:w-1/5 absolute pt-20 hidden lg:flex z-40 overflow-y-auto"
+        className="bg-main flex-grow w-full h-full lg:w-1/4 xl:w-1/5 fixed pt-20 hidden lg:flex z-40 overflow-y-auto"
       >
         <div className="w-full px-8 py-2 lg:py-8">
           <div className="flex flex-grow md:w-3/4 lg:w-3/4 xl:w-4/5">
@@ -52,9 +51,9 @@ class Sidebar extends React.Component {
               </div>
             </div>
           </div>
-          <SidebarItem title={this.myHealthTabsName} links={this.myHealthTabs} />
+          <SidebarItem title={this.myHealthTabsName} links={this.myHealthTabs} onLinkClick={this.props.onLinkClick} />
           <div className="my-6">
-            <SidebarItem title={this.myHistoryTabName} links={this.myHistoryTabs} />
+            <SidebarItem title={this.myHistoryTabName} links={this.myHistoryTabs} onLinkClick={this.props.onLinkClick} />
           </div>
         </div>
       </div>

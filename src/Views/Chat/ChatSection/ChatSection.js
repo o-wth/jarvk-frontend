@@ -16,7 +16,7 @@ class ChatSection extends React.Component {
         </div>
         {this.props.messages.map((message, _) => {
           return (
-            <ChatBubble recepient={this.props.recepient} className={floatDirection} message={message} />
+            <ChatBubble key={message} recepient={this.props.recepient} className={floatDirection} message={message} />
           );
         })}
         
